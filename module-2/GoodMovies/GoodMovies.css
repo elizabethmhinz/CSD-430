@@ -1,0 +1,56 @@
+/* June 1, 2025
+Module 2 Assignment - Java Scriptlet - Data Display - Liz Hinz for CSD430-A339 for Professor Payne
+External CSS file for JSP Scriptlet
+*/
+
+@charset "UTF-8";
+
+body {
+	background-color: black;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border: 1.5px solid;
+	border-color: blue;
+	color: white;
+
+}
+
+th {
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	font-size: 25px;
+}
+
+tr {
+	border: 1.5px solid;
+	border-color: blue;
+	text-align: center;
+}
+
+
+td {
+	font-size: 15px;
+}
+
