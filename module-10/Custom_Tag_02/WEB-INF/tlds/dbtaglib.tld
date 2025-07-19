@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Professor Darrell Payne
+ Bellevue University
+-->
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>dbtaglib</short-name>
+  <uri>/WEB-INF/tlds/dbtaglib</uri>
+
+  <tag>
+    <name>noTableMySQL</name>
+    <tagclass>dbTags.QueryResultsNoTableMySQL</tagclass>
+    <attribute>
+        <name>selectTeam</name>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>tableMySQL</name>
+    <tagclass>dbTags.QueryResultsTableMySQL</tagclass>
+    <attribute>
+        <name>selectTeam</name>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>
